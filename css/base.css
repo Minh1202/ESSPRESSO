@@ -1,0 +1,42 @@
+:root{
+    --white-color:white;
+    --black-color:black;
+    --text-color:#333;
+    --green-color: rgb(164, 180, 107);
+    --primary-color:#7d4c01;
+    --green-opacity-color :rgba(169, 194, 81, 0.9);
+}
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.gird {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.gird__full-width {
+    width: 100%;
+}
+
+.gird__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fill {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
